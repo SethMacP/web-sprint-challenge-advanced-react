@@ -1,3 +1,34 @@
+Explain how to build stateful class components.
+  -You utilize state to hold information and pass it around to different components.
+
+Describe the different phases of the component lifecycle.
+  -Mounting/Updating/Cleanup
+  -Your component initializes, mounts, and then renders. 
+  -After it renders it will update the components that need it, then re-render. This continues until complete.
+  -Cleanup happens when things get unmounted and you dont need to track the events anymore.
+
+Demonstrate an understanding of class component lifecycle methods.
+  -When you make your API call you setup the 'platform' it will be sent to first, then you make the call. (Initilize -> CDM)
+  -After the call has been made it renders the information to the page.
+  -If you have any CDU setup they can begin to fire at this point to further update the page.
+
+Define stateful logic.
+  -Any code that manipulates, updates, or creates state.
+
+Describe how to test a React component with React Testing Library.
+  -Utilize RTL to AAA test your components. You will create a (close)copy of the file you are working on (ex: form.js / form.test.js)
+  -Arrange: Render everything and grab the pieces you want to test
+  -Act :  Commit actions based on what you rendered/grabbed
+  -Assert: Say what the pieces you grabbed should do.
+
+  If they pass, you are good - If not you need to fix your code.
+
+
+
+
+
+
+
 # Sprint Challenge: Advanced React - React Plants 🌿
 
 **Read these instructions carefully. Understand exactly what is expected _before_ starting this Sprint Challenge.**
